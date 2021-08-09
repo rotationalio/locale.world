@@ -11,7 +11,7 @@ func main() {
 		os.Getenv("APP_DB_PASSWORD"),
 		os.Getenv("APP_DB_NAME"))
 
-	a.ensureTableExists()
+	// a.ensureTableExists()
 
 	a.Run(":8010")
 }
